@@ -1,0 +1,57 @@
+<html>
+<head><title>
+
+
+
+</title></head>
+
+<style>
+<!--
+LEGEND { fon-weight: bold; text-align: center; font-family: 
+Verdana; font-size: 12pt }
+LABEL { color: rgb(0,128,128); font-weight: bold }
+FIELDSET { background-color: rgb(192,192,192); margin-bottom: 10px; 
+padding: 10px }
+-->
+</style>
+
+
+<body bgcolor="#FF6699">
+<div align="center">
+<img src="imagenes/12524045_117697938611700_4790757443921758436_n.jpg" width="210" height="130">
+</div>
+<img src="imagenes/tarjeta.jpeg">
+
+<form>
+<fieldset>
+Nombre :<input type="text" name="nombre">
+</fieldset>
+
+<fieldset>
+Numero de tarjeta de credito :<input type="text" size="16" name="tarjeta" maxlength="16">
+</fieldset>
+
+<fieldset>
+Fecha de expiraci&oacute;n :<input type="text" name="fecha" size="2" placeholder="DD" minlength="2" maxlength="2">  <input type="text" name="fecha2" size="2" placeholder="MM" minlength="2" maxlength="2">  
+<input type="text" name="fecha3" size="2" placeholder="YY" minlength="2" maxlength="2">
+</fieldset>
+
+
+<fieldset>
+Numero de verificaci&oacute;n :<input type="text" name="cvv" size="3" placeholder="CVV" maxlength="3">
+</fieldset>
+
+<fieldset>
+<label>                
+<input type="checkbox" name="save_cc" checked="checked">
+Guardar mi tarjeta para futuras compras
+</label>
+</fieldset>
+
+<div align="center">
+<button>PAGAR</button>
+</div>
+
+</form>
+</body>
+</html>

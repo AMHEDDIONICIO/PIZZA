@@ -1,0 +1,86 @@
+
+
+<html>
+	<head>
+		<title>Menu Desplegable</title>
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:left;
+				width:500px;
+				font-family:Showcard Gothic;
+				size:16;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav {
+				width:1500px; /*Le establecemos un ancho*/
+				margin:20 left; /*Centramos automaticamente*/
+			}
+
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:black;
+				color:white;
+				text-decoration:none;
+				padding:20px 90px;
+				display:block;
+				
+			}
+			
+			.nav li a:hover {
+				background-color:gray;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:none;
+				min-width:180px;
+			}
+			
+			.nav li:hover > ul {
+				display:none;
+			}
+			
+			.nav li ul li {
+				position:none;
+			}
+			
+			.nav li ul li ul {
+				right:-60px;
+				top:0px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<nav> <!-- Aqui estamos iniciando la nueva etiqueta nav -->
+				<ul class="nav">
+					<li><a href="pagina principal.html" target="_parent">INICIO</a></li></ul></a>
+
+					<ul class="nav"><li><a href="descripcion.html" target="descripcion">PIZZAS Y HAMBURGUESAS</a></li></ul>
+
+					<ul class="nav"><li><a href="combos.html" target="descripcion">COMBOS</a></ul>
+					</li>
+					<ul class="nav"><li><a href="bebidas.html" target="descripcion">BEBIDAS</a></li></ul>
+					<ul class="nav"><li><a href="promociones.html" target="descripcion">PROMOCIONES</a></li>
+					</li></ul>
+				</ul>
+			</nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
+		</div>
+	</body>
+</html>
+
+
